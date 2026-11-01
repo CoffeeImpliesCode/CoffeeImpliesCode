@@ -1,45 +1,23 @@
-# Janis Gertulla
+# Hi, I'm Janis ☕
 
-Zig, Linux, and the low-level machinery underneath them.
+I'm a student in Berlin, studying informatics, mathematics, and physics at Humboldt University. I like building things that make me understand how the computer actually works, from floating-point arithmetic to graphics and compilers.
 
-I work on compilers, numerics, and asynchronous systems — mostly in Zig 0.16,
-occasionally in Rust and C. My interest is in the parts that are specified
-precisely and can be checked: floating-point rounding, interval enclosures,
-instruction selection, the shape of an `Io`.
+Most of my code is in Zig, with some Rust and C along the way. I tend to get attached to the details: how a result is rounded, how text gets onto the screen, or what it takes to translate one language into another.
 
-## Things I build
+[![Website](https://img.shields.io/badge/website-coffeeimpliescode.com-7d2333?style=flat-square)](https://coffeeimpliescode.com/) [![Ko-fi](https://img.shields.io/badge/Ko--fi-support_my_work-ff5e5b?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/coffeeimpliescode)
 
-Most of this is private while it is in progress. What is public is finished
-enough to read.
+## A few things I've built
 
-| | |
-|---|---|
-| [`zmath`](https://github.com/CoffeeImpliesCode/zmath) | IEC 60559 elementary functions for Zig, across `f16`/`f32`/`f64` and `@Vector`s, implemented against the standard rather than the platform libm |
-| [`zmath-testing`](https://github.com/CoffeeImpliesCode/zmath-testing) | Independent verification for the above — differential oracles, corpus replay, fuzzing, benchmarks |
-| [`zig-interval`](https://github.com/CoffeeImpliesCode/zig-interval) | Rigorous interval arithmetic with outward rounding |
-| [`zig-agent-proto`](https://github.com/CoffeeImpliesCode/zig-agent-proto) | MCP and ACP protocol library and runtime for Zig |
-| [`ocean`](https://github.com/CoffeeImpliesCode/ocean) | Compiler infrastructure and the `occ` driver |
-| [`vain`](https://github.com/CoffeeImpliesCode/vain) | SSA-form intermediate representation |
-| [`kernel`](https://github.com/CoffeeImpliesCode/kernel) | `io_uring`-shaped async I/O micro kernel, freestanding |
+🔢 **[zmath](https://github.com/CoffeeImpliesCode/zmath)** — A math library for Zig, from floating-point functions to matrices and geometry. Its companion [zmath-testing](https://github.com/CoffeeImpliesCode/zmath-testing) repo contains numerical oracles, test corpora, and benchmarks.
 
-Also: `zautomerge` (a direct Zig translation of the Automerge CRDT),
-[`zio`](https://github.com/lalinsky/zio) (async I/O), `ozai`, `skript`,
-`tinyfold` (biomolecular structure), `zcov`, `zbc`, `ziglint`.
+📐 **[zig-interval](https://github.com/CoffeeImpliesCode/zig-interval)** — Interval arithmetic, boxes, and a solver for linear inequalities. An experiment in keeping track of the uncertainty in a calculation.
 
-## How I work
+✒️ **[ztex](https://github.com/CoffeeImpliesCode/ztex)** — A LaTeX math renderer that turns formulas into SVG or raster images. It includes Latin Modern fonts and uses their math layout metrics.
 
-Specifications first, and tests that can disagree with the code. A test suite
-that shares code with the thing it checks only confirms the code agrees with
-itself, so the verification for each library lives in a separate repository that
-reaches it through its published API.
+🔀 **[translate-rust](https://github.com/CoffeeImpliesCode/translate-rust)** — An experimental translator from a subset of Rust to standalone Zig packages. It is a way for me to explore both languages and the space between them.
 
-Correctness claims get evidence attached: pinned identities, retained receipts,
-differential runs against implementations that were not written alongside the
-thing under test.
+🪟 **[nogui](https://github.com/CoffeeImpliesCode/nogui)** — An experimental immediate-mode GUI toolkit for Zig, with Vulkan rendering, layout, and shaped text.
 
-## Elsewhere
+🖥️ **[wayland](https://github.com/CoffeeImpliesCode/wayland)** — A Wayland compositor library and server in Zig, with software and GLES2 renderers.
 
-- [coffeeimpliescode.com](https://coffeeimpliescode.com)
-- Most of my work-in-progress is private; ask if something interests you.
-
-<!-- vim: set filetype=markdown -->
+These are projects I learn from as I build them, not promises of finished products. If one catches your eye, have a look around.
