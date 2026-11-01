@@ -8,14 +8,14 @@ I like building up and down the stack. Most of my code is in Zig, with some Rust
 
 ## A few things I've built
 
-**[zmath](https://github.com/CoffeeImpliesCode/zmath):** A Zig math library with scalar and vector floating-point functions, complex numbers, matrices, linear algebra, and geometry.
+**[zmath](https://github.com/CoffeeImpliesCode/zmath):** An experimental Zig math library targeting correctly rounded elementary functions for `f16`, `f32`, `f64`, and vectors. It also includes complex numbers, quaternions, matrices, linear algebra, and geometry.
 
-**[zig-interval](https://github.com/CoffeeImpliesCode/zig-interval):** Interval arithmetic for `f64`, n-dimensional boxes, and a Fourier-Motzkin solver for linear inequalities with interval coefficients.
+**[zig-interval](https://github.com/CoffeeImpliesCode/zig-interval):** An interval arithmetic library for Zig with outward-rounded basic arithmetic, n-dimensional boxes, and a Fourier-Motzkin solver for linear inequalities with interval coefficients.
 
-**[ztex](https://github.com/CoffeeImpliesCode/ztex):** A fast, experimental LaTeX math renderer in Zig. It parses formulas and renders SVG or raster images using bundled Latin Modern fonts.
+**[ztex](https://github.com/CoffeeImpliesCode/ztex):** A fast, experimental LaTeX math renderer in Zig. It parses formulas, lays them out using OpenType math metrics, and renders SVG or raster images with bundled Latin Modern fonts.
 
-**[translate-rust](https://github.com/CoffeeImpliesCode/translate-rust):** An experimental Rust-to-Zig translator that reads a Rust crate, builds an intermediate representation, and emits a standalone Zig package. It supports a subset of Rust.
+**[translate-rust](https://github.com/CoffeeImpliesCode/translate-rust):** An experimental translator for a subset of Rust. It reads a crate, lowers it through a Rust intermediate representation and Zig AST, and emits a standalone Zig package.
 
-**[nogui](https://github.com/CoffeeImpliesCode/nogui):** An experimental immediate-mode GUI toolkit for Zig, with Vulkan rendering, layout, shaped text, widgets, and native services.
+**[nogui](https://github.com/CoffeeImpliesCode/nogui):** An experimental, Linux-focused immediate-mode GUI toolkit for Zig. It combines widgets, typed layout, shaped text, and native services with batched Vulkan rendering.
 
-**[wayland](https://github.com/CoffeeImpliesCode/wayland):** An experimental Wayland compositor library and server in Zig, with Pixman and GLES2 renderers and headless, nested, and DRM/KMS backends.
+**[wayland](https://github.com/CoffeeImpliesCode/wayland):** An experimental Wayland compositor library and server in Zig. It has a canvas scene graph, Pixman and GLES2 renderers, and headless, nested Wayland, and DRM/KMS backends.
