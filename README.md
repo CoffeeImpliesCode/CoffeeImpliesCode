@@ -2,6 +2,8 @@
 
 I design and build software up and down the stack. My interests range from sync engines to game engines to compilers all the way down to embedded & robotics.
 
+I value performance, observability and immediate feedback loops. A human should never have to wait on a computer.
+
 I'm also a student in Berlin, studying informatics, mathematics, and physics at Humboldt University.
 
 I mostly like to program in Rust, Zig, Python & C, though nowadays that matters less and less when you develop agentically.
