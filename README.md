@@ -1,8 +1,10 @@
 # Hi, I'm Janis
 
-I'm a student in Berlin, studying informatics, mathematics, and physics at Humboldt University. I like building things that make me understand how the computer actually works, from floating-point arithmetic to graphics and compilers.
+I design and build software up and down the stack. My interests range from sync engines to game engines to compilers all the way down to embedded & robotics.
 
-I like building up and down the stack. Most of my code is in Zig, with some Rust and C along the way.
+I'm also a student in Berlin, studying informatics, mathematics, and physics at Humboldt University.
+
+I mostly like to program in Rust, Zig, Python & C, though nowadays that matters less and less when you develop agentically.
 
 [![Website](https://img.shields.io/badge/website-coffeeimpliescode.com-7d2333?style=flat-square)](https://coffeeimpliescode.com/) [![Ko-fi](https://img.shields.io/badge/Ko--fi-support_my_work-ff5e5b?style=flat-square&logo=kofi&logoColor=white)](https://ko-fi.com/coffeeimpliescode)
 
@@ -12,9 +14,9 @@ I like building up and down the stack. Most of my code is in Zig, with some Rust
 
 **[zig-interval](https://github.com/CoffeeImpliesCode/zig-interval):** An interval arithmetic library for Zig with outward-rounded basic arithmetic, n-dimensional boxes, and a Fourier-Motzkin solver for linear inequalities with interval coefficients.
 
-**[ztex](https://github.com/CoffeeImpliesCode/ztex):** A fast, experimental LaTeX math renderer in Zig. It parses formulas, lays them out using OpenType math metrics, and renders SVG or raster images with bundled Latin Modern fonts.
+**[ztex](https://github.com/CoffeeImpliesCode/ztex):** A small, fast, experimental LaTeX math renderer in Zig. It parses formulas, lays them out using OpenType math metrics, and renders SVG or raster images with bundled Latin Modern fonts. It is designed to be fast & embeddable while performing visually quite well on plain TeX.
 
-**[translate-rust](https://github.com/CoffeeImpliesCode/translate-rust):** An experimental translator for a subset of Rust. It reads a crate, lowers it through a Rust intermediate representation and Zig AST, and emits a standalone Zig package.
+**[translate-rust](https://github.com/CoffeeImpliesCode/translate-rust):** An experimental translator for a subset of Rust. It reads a crate, lowers it through a Rust intermediate representation and Zig AST, and emits a standalone Zig package. Currently tested/works only on small standalone nostd crates.
 
 **[nogui](https://github.com/CoffeeImpliesCode/nogui):** An experimental, Linux-focused immediate-mode GUI toolkit for Zig. It combines widgets, typed layout, shaped text, and native services with batched Vulkan rendering.
 
