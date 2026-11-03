@@ -1,4 +1,4 @@
-# Hi, I'm Janis
+# Hi, I'm Janis 👋
 
 I design and build software up and down the stack. My interests range from sync engines to game engines to compilers all the way down to embedded & robotics.
 
